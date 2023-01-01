@@ -1,0 +1,26 @@
+Product :
+
+API provides functionality for apartments perform activity on the Database
+
+Through api end point -> POST, GET, UPDATE, DELETE
+
+Apartment owner 
+
+- add owner
+- update owner 
+- remove owner 
+- delete owner 
+
+Technology :
+
+Django rest Framework - Create an API which performs owner activites 
+Git - Version Control 
+Docker - Containzer the Application and pass it as artifact to jenkins
+
+DataBase - Either Django SQL Alchemy / MongoDB / sql lite on django 
+
+
+
+
+
+
