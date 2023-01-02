@@ -1,26 +1,25 @@
 import requests 
 
-endpoint = "https://www.github.com"
-
-#requests.get()
+endpoint = "https://httpbin.org/"
 
 get_response = requests.get(endpoint)
 
-print(get_response.text)
-# if improper api end point - then HTML will be returned 
-# if End point is proper - then JSON Data is returned 
+print(get_response.text) # if its not a valid endpoint ( Non api request ) - then HTML is returned 
 
-# Application Programming Inteface 
+print("\n\n\n\n")
 
-# REST API -> Web API 
+endpoint = "https://httpbin.org/anything"
 
-# API - Application progamming interface 
+#get_response = requests.get(endpoint)
 
-# Request and Response 
-
-# Get, POST, PUT,  
-
-# CRUD - Create,Read, Update, Delete
+get_response = requests.get(endpoint, json={'query':"hello world"})  # another way to query json data if data is sent, we will receive json data 
 
 
-# Added Readme file
+print(get_response.text) # if its valid endpoint - then JSON data is returned  ( JavaScript Object Notation ~ Python Dict )
+
+
+print(get_response.json()) # Converts JSON into Usable Python Dictonary 
+
+# client can consume API as long as it sends API requests
+
+print(get_response.status_code) # Returns the API Response status 

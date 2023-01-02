@@ -19,7 +19,26 @@ Docker - Containzer the Application and pass it as artifact to jenkins
 
 DataBase - Either Django SQL Alchemy / MongoDB / sql lite on django 
 
+WEB API - 
 
+
+# if improper api end point - then HTML will be returned 
+# if End point is proper - then JSON Data is returned 
+
+# Application Programming Inteface 
+
+# REST API -> Web API 
+
+# API - Application progamming interface 
+
+# Request and Response 
+
+# Get, POST, PUT,  
+
+# CRUD - Create,Read, Update, Delete
+
+
+# Added Readme file
 
 
 
